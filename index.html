@@ -9,14 +9,15 @@
 <meta name="description" content="Electrólisis Percutánea Intratisular (EPI) en Mendoza: fisioterapia invasiva para tendinopatías y lesiones deportivas, con evaluación ecográfica, neuromodulación y punción seca. Atención en Maipú, Luján de Cuyo, Godoy Cruz y todo el Gran Mendoza. Consultá por WhatsApp." />
 <meta name="keywords" content="Electrólisis Percutánea Intratisular, Electrólisis Percutánea Intratisular en Mendoza, EPI Mendoza, tratamiento EPI Mendoza, fisioterapia invasiva Mendoza, rehabilitación deportiva Mendoza, evaluación ecográfica Mendoza, neuromodulación Mendoza, punción seca Mendoza, readaptación deportiva Mendoza, EPI Maipú, EPI Luján de Cuyo, fisioterapia invasiva Godoy Cruz" />
 <meta name="robots" content="index, follow, max-image-preview:large" />
-<link rel="canonical" href="https://www.mpstudio.com.ar/" />
+<link rel="canonical" href="https://landing-mp-studio.vercel.app/" />
 <meta name="author" content="MP STUDIO" />
 
 <!-- Geo / SEO local -->
 <meta name="geo.region" content="AR-M" />
-<meta name="geo.placename" content="Mendoza, Argentina" />
-<meta name="geo.position" content="-32.8908;-68.8272" />
-<meta name="ICBM" content="-32.8908, -68.8272" />
+<meta name="geo.placename" content="Luján de Cuyo, Mendoza, Argentina" />
+<!-- TODO: reemplazar por las coordenadas EXACTAS del pin de Google Maps del local -->
+<meta name="geo.position" content="-33.0405;-68.8800" />
+<meta name="ICBM" content="-33.0405, -68.8800" />
 
 <!-- Open Graph -->
 <meta property="og:type" content="website" />
@@ -24,43 +25,53 @@
 <meta property="og:site_name" content="MP STUDIO" />
 <meta property="og:title" content="Electrólisis Percutánea Intratisular en Mendoza | MP STUDIO" />
 <meta property="og:description" content="Fisioterapia invasiva y rehabilitación avanzada en Mendoza: EPI, evaluación ecográfica, neuromodulación, punción seca y readaptación deportiva." />
-<meta property="og:url" content="https://www.mpstudio.com.ar/" />
-<meta property="og:image" content="https://www.mpstudio.com.ar/og-image.jpg" />
+<meta property="og:url" content="https://landing-mp-studio.vercel.app/" />
+<meta property="og:image" content="https://landing-mp-studio.vercel.app/og-image.png" />
+<meta property="og:image:type" content="image/png" />
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="630" />
+<meta property="og:image:alt" content="MP STUDIO — Electrólisis Percutánea Intratisular (EPI) en Mendoza" />
 
 <!-- Twitter -->
 <meta name="twitter:card" content="summary_large_image" />
 <meta name="twitter:title" content="Electrólisis Percutánea Intratisular en Mendoza | MP STUDIO" />
 <meta name="twitter:description" content="EPI, fisioterapia invasiva, evaluación ecográfica, neuromodulación y punción seca en Mendoza. Consultá por WhatsApp." />
-<meta name="twitter:image" content="https://www.mpstudio.com.ar/og-image.jpg" />
+<meta name="twitter:image" content="https://landing-mp-studio.vercel.app/og-image.png" />
+<meta name="twitter:image:alt" content="MP STUDIO — EPI en Mendoza" />
 
 <meta name="theme-color" content="#41431B" />
 <link rel="icon" type="image/svg+xml" href="favicon.svg" />
 
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500&family=Jost:wght@300;400;500;600&display=swap" rel="stylesheet" />
+<!-- Fuentes cargadas async para no bloquear el render (mejora LCP / Core Web Vitals) -->
+<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500&family=Jost:wght@300;400;500;600&display=swap" />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500&family=Jost:wght@300;400;500;600&display=swap" media="print" onload="this.media='all'" />
+<noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500&family=Jost:wght@300;400;500;600&display=swap" /></noscript>
 
 <!-- ===================== SCHEMA: MedicalBusiness ===================== -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "MedicalBusiness",
-  "@id": "https://www.mpstudio.com.ar/#mpstudio",
+  "@id": "https://landing-mp-studio.vercel.app/#mpstudio",
   "name": "MP STUDIO — Fisioterapia Invasiva y Rehabilitación Avanzada",
   "description": "Centro especializado en Electrólisis Percutánea Intratisular (EPI), fisioterapia invasiva, evaluación ecográfica, neuromodulación, punción seca y readaptación deportiva en Mendoza, Argentina.",
-  "url": "https://www.mpstudio.com.ar/",
+  "url": "https://landing-mp-studio.vercel.app/",
   "telephone": "+5492612130504",
-  "image": "https://www.mpstudio.com.ar/og-image.jpg",
+  "image": "https://landing-mp-studio.vercel.app/og-image.png",
   "medicalSpecialty": "Physiotherapy",
+  "employee": { "@id": "https://landing-mp-studio.vercel.app/#marcosporretta" },
   "priceRange": "$$",
   "currenciesAccepted": "ARS",
   "address": {
     "@type": "PostalAddress",
-    "addressLocality": "Mendoza",
+    "streetAddress": "Gral. Paz 8222",
+    "addressLocality": "Luján de Cuyo",
     "addressRegion": "Mendoza",
     "addressCountry": "AR"
   },
-  "geo": { "@type": "GeoCoordinates", "latitude": -32.8908, "longitude": -68.8272 },
+  "geo": { "@type": "GeoCoordinates", "latitude": -33.0405, "longitude": -68.8800 },
   "areaServed": [
     { "@type": "City", "name": "Maipú, Mendoza" },
     { "@type": "City", "name": "Luján de Cuyo" },
@@ -84,6 +95,26 @@
       { "@type": "Offer", "itemOffered": { "@type": "MedicalTherapy", "name": "Plan de readaptación deportiva y funcional" } }
     ]
   }
+}
+</script>
+
+<!-- ===================== SCHEMA: Physician (profesional · E-E-A-T) ===================== -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "https://landing-mp-studio.vercel.app/#marcosporretta",
+  "name": "Marcos Porretta",
+  "jobTitle": "Fisioterapeuta · Fisioterapia invasiva (EPI)",
+  "worksFor": { "@id": "https://landing-mp-studio.vercel.app/#mpstudio" },
+  "knowsAbout": [
+    "Electrólisis Percutánea Intratisular",
+    "Fisioterapia invasiva",
+    "Punción seca",
+    "Neuromodulación",
+    "Evaluación ecográfica",
+    "Readaptación deportiva"
+  ]
 }
 </script>
 
@@ -294,7 +325,7 @@ footer a{color:rgba(248,243,225,.72)}footer a:hover{color:var(--sage)}
       <a class="navlink" href="#servicios">Servicios</a>
       <a class="navlink" href="#zonas">Zonas</a>
       <a class="navlink" href="#faq">Preguntas</a>
-      <a class="btn btn-wa nav-cta js-wa" href="#">WhatsApp</a>
+      <a class="btn btn-wa nav-cta js-wa" href="https://wa.me/5492612130504">WhatsApp</a>
     </nav>
     <button class="burger" id="burger" aria-label="Menú">
       <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 6h18M3 12h18M3 18h18"/></svg>
@@ -310,7 +341,7 @@ footer a{color:rgba(248,243,225,.72)}footer a:hover{color:var(--sage)}
     <h1>Electrólisis Percutánea Intratisular <span class="hl">en Mendoza</span></h1>
     <p>Tratamientos avanzados de <strong>fisioterapia invasiva</strong>, evaluación ecográfica, neuromodulación, punción seca y readaptación deportiva en Maipú, Luján de Cuyo, Godoy Cruz, Ciudad de Mendoza y todo el Gran Mendoza.</p>
     <div class="hero-cta">
-      <a class="btn btn-wa js-wa" href="#"><svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M.057 24l1.687-6.163a11.867 11.867 0 01-1.587-5.945C.16 5.335 5.495 0 12.05 0a11.82 11.82 0 018.413 3.488 11.82 11.82 0 013.48 8.414c-.003 6.557-5.338 11.892-11.893 11.892a11.9 11.9 0 01-5.688-1.448L.057 24zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884a9.86 9.86 0 001.51 5.26l-.999 3.648 3.978-1.207zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.247-.694.247-1.289.173-1.413z"/></svg>Consultar por WhatsApp</a>
+      <a class="btn btn-wa js-wa" href="https://wa.me/5492612130504"><svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M.057 24l1.687-6.163a11.867 11.867 0 01-1.587-5.945C.16 5.335 5.495 0 12.05 0a11.82 11.82 0 018.413 3.488 11.82 11.82 0 013.48 8.414c-.003 6.557-5.338 11.892-11.893 11.892a11.9 11.9 0 01-5.688-1.448L.057 24zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884a9.86 9.86 0 001.51 5.26l-.999 3.648 3.978-1.207zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.247-.694.247-1.289.173-1.413z"/></svg>Consultar por WhatsApp</a>
       <a class="btn btn-outline" href="#servicios">Ver tratamientos</a>
     </div>
     <div class="hero-trust">
@@ -372,7 +403,7 @@ footer a{color:rgba(248,243,225,.72)}footer a:hover{color:var(--sage)}
           <li><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M20 6 9 17l-5-5"/></svg> Se integra con un plan de readaptación deportiva</li>
         </ul>
         <p style="font-size:.85rem;margin:18px 0 22px;color:var(--text-3)">La indicación y los resultados dependen de cada caso y de la evaluación profesional. La EPI no reemplaza una consulta médica.</p>
-        <a class="btn btn-olive js-wa" href="#" style="width:100%;justify-content:center">Consultar mi caso por WhatsApp</a>
+        <a class="btn btn-olive js-wa" href="https://wa.me/5492612130504" style="width:100%;justify-content:center">Consultar mi caso por WhatsApp</a>
       </aside>
     </div>
   </div>
@@ -417,25 +448,25 @@ footer a{color:rgba(248,243,225,.72)}footer a:hover{color:var(--sage)}
         <div class="sic"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M22 12h-4l-3 9L9 3l-3 9H2"/></svg></div>
         <h3>Evaluación ecográfica</h3>
         <p>Permite una valoración precisa de tendones, músculos y zonas dolorosas en tiempo real, para tratamientos más personalizados y dirigidos.</p>
-        <a class="slink js-wa" href="#">Pedir evaluación →</a>
+        <a class="slink js-wa" href="https://wa.me/5492612130504">Pedir evaluación →</a>
       </div>
       <div class="serv">
         <div class="sic"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 2a3 3 0 0 0-3 3v7a3 3 0 0 0 6 0V5a3 3 0 0 0-3-3z"/><path d="M5 10v2a7 7 0 0 0 14 0v-2M12 19v3"/></svg></div>
         <h3>Neuromodulación</h3>
         <p>Se utiliza para modular el dolor y mejorar la función neuromuscular, acompañando el proceso de rehabilitación de forma integral.</p>
-        <a class="slink js-wa" href="#">Consultar →</a>
+        <a class="slink js-wa" href="https://wa.me/5492612130504">Consultar →</a>
       </div>
       <div class="serv">
         <div class="sic"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="m18 2 4 4-13 13H5v-4z"/><path d="m14 6 4 4"/></svg></div>
         <h3>Punción seca</h3>
         <p>Técnica para tratar puntos gatillo, contracturas y dolor muscular, ayudando a recuperar movilidad y a liberar restricciones.</p>
-        <a class="slink js-wa" href="#">Consultar →</a>
+        <a class="slink js-wa" href="https://wa.me/5492612130504">Consultar →</a>
       </div>
       <div class="serv">
         <div class="sic"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M13 2 3 14h7l-1 8 10-12h-7z"/></svg></div>
         <h3>Plan de readaptación</h3>
         <p>Vuelta progresiva y segura a la actividad física, deportiva o laboral: fortalecimiento, movilidad, control motor, prevención de recaídas y seguimiento.</p>
-        <a class="slink js-wa" href="#">Armar mi plan →</a>
+        <a class="slink js-wa" href="https://wa.me/5492612130504">Armar mi plan →</a>
       </div>
     </div>
   </div>
@@ -480,6 +511,18 @@ footer a{color:rgba(248,243,225,.72)}footer a:hover{color:var(--sage)}
   </div>
 </section>
 
+<!-- ===================== PROFESIONAL (E-E-A-T) ===================== -->
+<section class="section bg-beige" id="profesional">
+  <div class="wrap">
+    <div class="kicker-h">
+      <span class="eyebrow">Quién te atiende</span>
+      <h2>Marcos Porretta</h2>
+      <p class="lead">Profesional a cargo de MP STUDIO, dedicado a la <strong>fisioterapia invasiva</strong> y a la Electrólisis Percutánea Intratisular (EPI). Trabaja cada caso con evaluación ecográfica previa y un plan de tratamiento personalizado, orientado a la recuperación funcional y a tu vuelta a la actividad.</p>
+      <p style="margin-top:14px;color:var(--text-3);font-size:.95rem">Matrícula profesional habilitante · Atención con turno previo en Gral. Paz 8222, Luján de Cuyo, Mendoza.</p>
+    </div>
+  </div>
+</section>
+
 <!-- ===================== FAQ ===================== -->
 <section class="section bg-white" id="faq">
   <div class="wrap">
@@ -508,7 +551,7 @@ footer a{color:rgba(248,243,225,.72)}footer a:hover{color:var(--sage)}
     <div class="cta-band">
       <h2>Consultá por Electrólisis Percutánea Intratisular en Mendoza</h2>
       <p>Si tenés una lesión que no mejora, dolor persistente o necesitás volver a entrenar con seguridad, en MP STUDIO podemos ayudarte con una evaluación profesional y un plan de tratamiento personalizado.</p>
-      <a class="btn btn-wa js-wa" href="#"><svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M.057 24l1.687-6.163a11.867 11.867 0 01-1.587-5.945C.16 5.335 5.495 0 12.05 0a11.82 11.82 0 018.413 3.488 11.82 11.82 0 013.48 8.414c-.003 6.557-5.338 11.892-11.893 11.892a11.9 11.9 0 01-5.688-1.448L.057 24zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884a9.86 9.86 0 001.51 5.26l-.999 3.648 3.978-1.207zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.247-.694.247-1.289.173-1.413z"/></svg>Agendar consulta por WhatsApp</a>
+      <a class="btn btn-wa js-wa" href="https://wa.me/5492612130504"><svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M.057 24l1.687-6.163a11.867 11.867 0 01-1.587-5.945C.16 5.335 5.495 0 12.05 0a11.82 11.82 0 018.413 3.488 11.82 11.82 0 013.48 8.414c-.003 6.557-5.338 11.892-11.893 11.892a11.9 11.9 0 01-5.688-1.448L.057 24zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884a9.86 9.86 0 001.51 5.26l-.999 3.648 3.978-1.207zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.247-.694.247-1.289.173-1.413z"/></svg>Agendar consulta por WhatsApp</a>
     </div>
   </div>
 </section>
@@ -527,6 +570,7 @@ footer a{color:rgba(248,243,225,.72)}footer a:hover{color:var(--sage)}
           <span class="bname">MP STUDIO</span>
         </div>
         <p style="color:rgba(248,243,225,.66);max-width:38ch">Fisioterapia invasiva y rehabilitación avanzada en Mendoza. Electrólisis Percutánea Intratisular (EPI), evaluación ecográfica, neuromodulación, punción seca y readaptación deportiva.</p>
+        <p style="color:rgba(248,243,225,.66);max-width:38ch;margin-top:12px">Gral. Paz 8222, Luján de Cuyo, Mendoza, Argentina · WhatsApp <a href="https://wa.me/5492612130504">+54 9 261 213 0504</a></p>
       </div>
       <div>
         <h4>Tratamientos</h4>
@@ -556,7 +600,7 @@ footer a{color:rgba(248,243,225,.72)}footer a:hover{color:var(--sage)}
   </div>
 </footer>
 
-<a class="wa-float js-wa" href="#" aria-label="Consultar por WhatsApp">
+<a class="wa-float js-wa" href="https://wa.me/5492612130504" aria-label="Consultar por WhatsApp">
   <svg viewBox="0 0 24 24" fill="currentColor"><path d="M.057 24l1.687-6.163a11.867 11.867 0 01-1.587-5.945C.16 5.335 5.495 0 12.05 0a11.82 11.82 0 018.413 3.488 11.82 11.82 0 013.48 8.414c-.003 6.557-5.338 11.892-11.893 11.892a11.9 11.9 0 01-5.688-1.448L.057 24zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884a9.86 9.86 0 001.51 5.26l-.999 3.648 3.978-1.207zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.247-.694.247-1.289.173-1.413z"/></svg>
 </a>
 

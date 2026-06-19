@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://landing-mp-studio.vercel.app/</loc>
+    <lastmod>2026-06-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <!--
+    Cuando publiques las paginas satelite (ver ESTRATEGIA-SEO.md), agregalas aca.
+    NO las dejes listadas hasta que existan: una URL en el sitemap que devuelve 404
+    perjudica el crawl. Ejemplo a descomentar cuando esten online:
+
+  <url><loc>https://landing-mp-studio.vercel.app/epi-maipu/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://landing-mp-studio.vercel.app/epi-lujan-de-cuyo/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://landing-mp-studio.vercel.app/epi-godoy-cruz/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://landing-mp-studio.vercel.app/epi-ciudad-de-mendoza/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://landing-mp-studio.vercel.app/fisioterapia-invasiva-mendoza/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://landing-mp-studio.vercel.app/puncion-seca-mendoza/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://landing-mp-studio.vercel.app/neuromodulacion-mendoza/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://landing-mp-studio.vercel.app/evaluacion-ecografica-mendoza/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://landing-mp-studio.vercel.app/readaptacion-deportiva-mendoza/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  -->
+</urlset>
